@@ -14,7 +14,7 @@ except ImportError:
 
 # Set API Key
 if IN_COLAB:
-    API_KEY = "AIzaSyBDToWssuLp80FKiF92CPnEQvGXWz-8REM"  # Replace with a valid API key
+    API_KEY = "Paste_your_google_api_key"  # Replace with a valid API key
 else:
     from dotenv import load_dotenv
     load_dotenv()
